@@ -45,13 +45,11 @@ public class BarBehavior : MonoBehaviour
 
     public void updateHealthBar()
     {
-        Debug.Log("Entered updateHealthBar");
         healthSprite.fillAmount = health/100f;
     }
 
     public void updateHungerBar()
     {
-        Debug.Log("Entered updateHungerBar");
         hungerSprite.fillAmount = hunger/100f;
     }
 }
